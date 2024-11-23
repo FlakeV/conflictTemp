@@ -1,6 +1,12 @@
+import time
+
+
 def foo(x, y):
     print("calculating....")
-    return x + y
+    x = x * 2
+    y = y * 2
+    time.sleep(1)
+    return y * x
 
 
 if __name__ == '__main__':
